@@ -25,7 +25,7 @@ header {
   /* ロゴとナビを横並びにする設定 */
   display: flex;
   align-items: center;
-
+  z-index: 10;
 }
 
 header a {
@@ -66,9 +66,40 @@ header nav {
 
 section {
   height: 500px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
-section#concept {
-  padding-top: 100px;
+#concept {
+  height: 900px;
+  background-image: url('../img/concept.jpg');
+  background-size: cover;
+  letter-spacing: 2px;
+  position: relative;
+  color: white;
 }
+
+#concept .darkback {
+  height: 900px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  /* vertical-align: middle; */
+  padding-top: 250px;
+
+}
+
+#concept h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+#concept .imgURL {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* section#concept {
+  padding-top: 100px;
+} */
