@@ -73,7 +73,6 @@ header nav {
 
 section {
   padding-top: 30px;
-  /* height: 500px; */
   text-align: center;
 }
 
@@ -83,6 +82,18 @@ section {
 
 .container h1 {
   background-color: #FFF8B0;
+}
+
+div.image {
+  position: relative;
+}
+
+.imgURL {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  letter-spacing: 2px;
+  color: white;
 }
 
 #concept {
@@ -111,12 +122,6 @@ section {
   letter-spacing: 5px;
 }
 
-#concept .imgURL {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
 #features {
   height: 700px;
 }
@@ -141,6 +146,12 @@ section {
 #developer img {
   width: 200px;
   height: 200px;
+}
+
+#developer .imgURL {
+  position: static;
+  color: #333;
+  font-size: 8px;
 }
 
 footer {
