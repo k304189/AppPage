@@ -72,14 +72,15 @@ header nav {
 section {
   padding-top: 30px;
   height: 500px;
-}
-
-.container h1 {
-  background-color: #FFF8B0;
+  text-align: center;
 }
 
 .container {
   padding: 0 50px;
+}
+
+.container h1 {
+  background-color: #FFF8B0;
 }
 
 #concept {
@@ -98,8 +99,6 @@ section {
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
-  text-align: center;
-  /* vertical-align: middle; */
   padding-top: 250px;
 
 }
@@ -117,7 +116,6 @@ section {
 
 #features {
   height: 700px;
-  text-align: center;
 }
 
 #features img {
@@ -125,7 +123,7 @@ section {
 }
 
 #function {
-  text-align: center;
+  height: 2200px;
 }
 
  #function section {
@@ -136,7 +134,3 @@ section {
 #function img {
   width: 100%;
 }
-
-/* section#concept {
-  padding-top: 100px;
-} */
