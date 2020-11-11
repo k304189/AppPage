@@ -1,0 +1,37 @@
+/* スマートフォン用設定 */
+@media (max-width: 767px) {
+  header .menu-icon {
+    display: block;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #concept {
+    height: 500px;
+    padding-top: 500px;
+    background-size: cover;
+  }
+
+  #concept .darkback {
+    height: 500px;
+    padding-top: 100px;
+  }
+
+  #concept h1 {
+    font-size: 24px;
+  }
+
+  /* #function img {
+    height: auto;
+  } */
+
+  .imgURL {
+    font-size: 8px;
+  }
+}
