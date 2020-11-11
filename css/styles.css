@@ -74,6 +74,10 @@ section {
   height: 500px;
 }
 
+.container h1 {
+  background-color: #FFF8B0;
+}
+
 .container {
   padding: 0 50px;
 }
@@ -113,12 +117,25 @@ section {
 
 #features {
   height: 700px;
-}
-
-#features img{
   text-align: center;
 }
 
+#features img {
+  width: 100%;
+}
+
+#function {
+  text-align: center;
+}
+
+ #function section {
+   height: 700px;
+   margin-bottom: 10px;
+}
+
+#function img {
+  width: 100%;
+}
 
 /* section#concept {
   padding-top: 100px;
