@@ -27,11 +27,52 @@
     font-size: 24px;
   }
 
-  /* #function img {
-    height: auto;
-  } */
-
   .imgURL {
     font-size: 8px;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  #concept h1 {
+     font-size: 64px;
+  }
+
+  #concept p {
+    font-size: 24px;
+  }
+
+  #concept .imgURL {
+    font-size: 16px;
+  }
+
+  #features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #features .image {
+    width: 50%
+  }
+
+  .info {
+    width: 40%;
+  }
+
+  .info p {
+    font-size: 24px;
+  }
+
+  #function {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 30%;
   }
 }
