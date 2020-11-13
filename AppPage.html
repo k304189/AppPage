@@ -14,7 +14,8 @@
     <header>
       <h1><a href="#">mealoor</a></h1>
       <nav class="links">
-        <span class="fa fa-bars menu-icon"></span>
+        <span id="menuOpen" class="fa fa-bars menu-icon"></span>
+        <span id="menuClose" class="fas fa-times"></span>
         <ul>
           <li><a href="#features">mealoorとは</a></li>
           <li><a href="#function">機能説明</a></li>
@@ -107,5 +108,13 @@
     <footer>
       © Taro Sato 2020
     </footer>
+    <!-- サンドイッチリンクのモーダル -->
+    <div id="modal" class="hidden">
+      <ul>
+        <li><a href="#features">mealoorとは</a></li>
+        <li><a href="#function">機能説明</a></li>
+        <li><a href="#developer">開発者</a></li>
+      </ul>
+    </div>
   </body>
 </html>

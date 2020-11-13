@@ -1,6 +1,6 @@
 /* スマートフォン用設定 */
 @media (max-width: 767px) {
-  header .menu-icon {
+  #menuOpen {
     display: block;
   }
 
@@ -32,6 +32,7 @@
   }
 
   .container h1 {
+    font-size: 20px;
     text-align: center;
   }
 }
