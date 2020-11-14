@@ -81,6 +81,10 @@ header li:hover {
   background-color: white;
 }
 
+.bigSection {
+  padding-top: 30px;
+}
+
 .container {
   padding: 0 50px;
 }
