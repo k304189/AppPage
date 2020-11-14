@@ -1,4 +1,5 @@
 $(function(){
+
   //スクロールアニメーション
   $('a[href^="#"]').click(function(){
     let href = $(this).attr("href");

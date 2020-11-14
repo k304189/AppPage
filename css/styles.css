@@ -162,6 +162,28 @@ div.image {
   font-size: 8px;
 }
 
+#call-to-action {
+  background-color: #FFF8B0;
+  padding: 50px 0;
+  height: 200px;
+  margin: 0 auto;
+  /* line-height: 200px; */
+}
+
+.btn {
+  display: block;
+  /* padding: 100px 200px; */
+  background-color: #FFF8B0;
+  width: 360px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 60px;
+  font-size: 40px;
+  margin: 0 auto;
+  color: #333;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, .35);
+}
+
 footer {
   background-color: black;
   color: gray;
